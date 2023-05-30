@@ -2,7 +2,7 @@ const { APIClient } = require("@wharfkit/antelope");
 
 const client = new APIClient({ url: "http://144.217.253.32:8888"});
 
-const start_height = 39590000
+const start_height = 39890000
 const end_height = 39990000
 
 // Run tests against the v1/chain/get_block call
