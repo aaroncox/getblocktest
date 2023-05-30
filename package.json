@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@wharfkit/antelope": "^0.7.0"
+  }
+}
