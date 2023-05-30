@@ -26,7 +26,7 @@ const getBlockChain = async (resolve, reject, height) => {
 const getBlockTrace = async (resolve, reject, height) => {
 
     const start = new Date()
-    await client.provider.call("/v1/trace_api/get_block", { block_num_or_id: height })
+    await client.provider.call("/v1/trace_api/get_block", { block_num: height })
     const end = new Date()
     console.log(`trace_api, ${height}, ${end - start}`);
 
